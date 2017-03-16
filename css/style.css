@@ -6,6 +6,10 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 */
 /* INICIO MODAL */
 
+.col-md-6.service_grid.text-center {
+    margin-bottom: 30px !important;
+}
+
 .myImg {
     border-radius: 5px;
     cursor: pointer;
@@ -1688,4 +1692,3 @@ ul.project_box {
     padding-top: 11px;
 }
 }
-
