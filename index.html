@@ -37,7 +37,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 				 
 				 <ul>
 					 <li class="active"><a href="index.html">Início</a></li>
-					 <li><a href="project.html">Artefatos</a></li>
+					 <li><a href="project.html">Detalhes dos Artefatos</a></li>
 					 <li><a href="contact.html">Contato</a></li>
 				 </ul>			 		 
 			 </div>
@@ -149,9 +149,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 						 <p>Guia que auxilia a localizar os conhecimentos importantes</p>
 					 </div>	
 					 <div class="col-md-3 service_grid text-center">
-						 <img class="myImg img-responsive2" src="images/storytelling.jpg"  width="300" height="200">
+								 <video controls width="300" height="200">
+  					<source src="videos/GICO.mp4" type="video/mp4">
+					</video>  
 						 <h6><a href="#">StoryTelling</a></h6>
-						 <p>Breve história em quadrinho que descreve o ambiente de trabalho</p>
+						 <p>Breve história que descreve o ambiente de trabalho e aplicação do KM</p>
 					 </div>		 
 					 <div class="clearfix"></div>
 			 </div>
@@ -262,6 +264,13 @@ img[2].onclick = function(){
 
 
 img[3].onclick = function(){
+    modal.style.display = "block";
+    modalImg.src = this.src;
+    captionText.innerHTML = this.alt;
+    sideBar[0].style.display = "none";
+}
+
+img[4].onclick = function(){
     modal.style.display = "block";
     modalImg.src = this.src;
     captionText.innerHTML = this.alt;
